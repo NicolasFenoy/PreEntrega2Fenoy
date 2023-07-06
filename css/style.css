@@ -1,0 +1,958 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 212, 159);
+    border: solid;
+}
+.ClaseNav {
+    background-color: rgb(0, 255, 0);
+}
+.ClaseNav img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+.ClaseNav a {
+    color: blue;
+    text-decoration: none;
+    font-style: italic;
+}
+.ClaseNav a:visited {
+    color: crimson;
+}
+.ClaseNav a:active {
+    color: aliceblue;
+}
+header {
+    padding: 5px;
+    background-color: crimson;
+}
+header img {
+    width: 100%;
+    height: 100%;
+}
+.Vida {
+    background-color: darkblue;
+    padding: 5px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.TituloVida {
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+}
+.Tipos {
+    text-align: center;
+}
+.TiposDeReinosAnimales {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.ReinoAnimal {
+    display: inline-block;
+    padding: 35px;
+    color: aliceblue;
+    list-style-type: none;
+}
+.Muerte {
+    padding: 5px;
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+    align-items: center;
+}
+.CalaveraCalavera {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ImagenDeLaMuerte {
+    width: 400px;
+    height: 400px;
+}
+.ModificarAguaAgua {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+}
+.QueEsElAgua {
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+}
+.MoleculaAgua {
+    background-color: darkblue;
+}
+.Cualidades {
+    background-color: darkblue;
+    color: aliceblue;
+}
+.ElAgua {
+    text-align: center;
+    background-color: darkblue;
+}
+.CualidadesDelAgua {
+    display: inline-block;
+    padding: 100px;
+    color: aliceblue;
+    list-style-type: none;
+}
+.CicloAgua {
+    text-align: center;
+    color: aliceblue;
+    background-color: darkblue;
+}
+.FasesCicloAgua {
+    display: inline-block;
+    padding: 100px;
+    list-style-type: none;
+}
+.VideoAgua {
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+}
+.TituloDeVideoExplicativo {
+    text-transform: uppercase;
+    background-color: darkblue;
+    font-style: italic;
+}
+.DulceSalado {
+    text-align: center;
+    color: aliceblue;
+    background-color: darkblue;
+    padding: 5px;
+}
+.SaladoDulce {
+    width: 100%;
+    height: 100%;
+}
+.ElSol {
+    padding: 5px;
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+}
+.TituloEstrella {
+    text-transform: uppercase;
+    background-color: darkblue;
+    font-style: italic;
+}
+.ImagenCero {
+    display: flex;
+}
+.ImagenUno {
+    width: 800px;
+    height: 450px;
+}
+.ImagenDos {
+    width: 800px;
+    height: 450px;
+}
+.LaAtmósfera {
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+}
+.TituloAtmósfera {
+    text-transform: uppercase;
+    background-color: darkblue;
+}
+.ImgP {
+    display: flex;
+}
+.ImgAtmósfera {
+    width: 50%;
+    height: 50%;
+}
+.Artículo {
+    display: inline-block;
+    padding: 25px;
+    list-style-type: none;
+}
+.Formulario {
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+    background-color: darkblue;
+}
+.ContactoSugerencias {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+.DivLabel {
+    display: inline-block;
+}
+footer {
+    padding: 5px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.footer {
+    color: red;
+    padding: 7px;
+}
+p {
+    font-size: 1.7em;
+}
+h1 {
+    font-size: 2.8em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2.3em;
+}
+li {
+    font-size: 1.5em;
+}
+form input:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+div textarea:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+/*PAGINA DE LOS ANIMALES*/
+
+.ClaseNavAnimales {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+}
+
+.ClaseNavAnimales img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+
+.ClaseNavAnimales a:visited {
+    color: crimson;
+}
+
+.ClaseNavAnimales a:active {
+    color: aliceblue;
+}
+
+.Animales {
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.VertebradosInvertebrados {
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+}
+
+.VertebradoInvertebradoFlex {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ImgVertebradoInvertebrado {
+    width: 100%;
+    height: 100%;
+}
+
+.Alimentación {
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.Habitad {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.Argentina {
+    padding: 5px;
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.AnimalArgentina {
+    display: flex;
+}
+
+.FigCaptionAnimalArgentina {
+    background-color: darkblue;
+}
+
+.ImgArgentina {
+    width: 75%;
+    height: 75%;
+}
+
+/*PAGINA DE LAS ARQUEAS*/
+
+.ClaseNavArqueas {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+}
+
+.ClaseNavArqueas img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+
+.ClaseNavArqueas a:visited {
+    color: crimson;
+}
+
+.ClaseNavArqueas a:active {
+    color: aliceblue;
+}
+
+
+.Arqueas {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.PárrafoDiferente {
+    color: red;
+}
+
+.PárrafoDiferenteDos {
+    color: chartreuse;
+}
+
+.PárrafoDiferenteTres {
+    color: aqua;
+}
+
+.Tipos {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.Reproducción {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.FlexArqueas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.GemaciónBinaria {
+    border: solid;
+    color: aliceblue;
+}
+
+.Carl {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.ImgCarl {
+    width: 100%;
+    height: 100%;
+}
+
+.GridDescubrimiento {
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    grid-template-rows: 470px 470px 470px;
+    grid-template-areas:
+        "img img h2"
+        "img img p"
+        "img img p";
+}
+
+.H {
+    grid-area: h2;
+}
+
+.Img {
+    grid-area: img;
+}
+
+.PDescubrimiento {
+    grid-area: p;
+}
+
+/*PAGINA DE LAS BACTERIAS*/
+
+.ClaseNavBacterias {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+}
+
+.ClaseNavBacterias img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+
+.ClaseNavBacterias a:visited {
+    color: crimson;
+}
+
+.ClaseNavBacterias a:active {
+    color: aliceblue;
+}
+
+.BacteriasYMicrómetros {
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.ImgBacterias {
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+}
+
+.GridVirus {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    color: aliceblue;
+}
+
+.TodoLoDemas {
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+}
+
+.TodoLoDemasDos {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+/*PAGINA DE LAS CROMISTAS*/
+
+.ClaseNavCromistas {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+}
+
+.ClaseNavCromistas img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+
+.ClaseNavCromistas a:visited {
+    color: crimson;
+}
+
+.ClaseNavCromistas a:active {
+    color: aliceblue;
+}
+
+.Cromistas {
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.Cloroplasto {
+    border: solid;
+    color: aliceblue;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.Descubrimiento {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.PárrafoDescubrimiento {
+    display: flex;
+}
+
+.ImgDescubrimiento {
+    width: 25%;
+}
+
+.Biografia {
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+/*PAGINA DE LOS HONGOS*/
+
+.ClaseNavHongos {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+}
+
+.ClaseNavHongos img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+
+.ClaseNavHongos a:visited {
+    color: crimson;
+}
+
+.ClaseNavHongos a:active {
+    color: aliceblue;
+}
+
+.PHongo {
+    text-align: center;
+    color: aliceblue;
+}
+
+.TituloHongo {
+    color: aliceblue;
+}
+
+.Background {
+    background-color: darkblue;
+    text-transform: uppercase;
+}
+
+.Mapa {
+    text-align: center;
+}
+
+/*PAGINA DE LAS PLANTAS*/
+
+.ClaseNavPlantasPlantas {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+}
+
+.ClaseNavPlantasPlantas img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+
+.ClaseNavPlantasPlantas a:visited {
+    color: crimson;
+}
+
+.ClaseNavPlantasPlantas a:active {
+    color: aliceblue;
+}
+
+.TituloPlantas {
+    color: aliceblue;
+}
+
+.Plantas {
+    background-color: darkblue;
+    padding: 5px;
+}
+
+.GridPlantaGrid {
+    display: grid;
+    justify-content: center;
+}
+
+.OtrasPlantas {
+    text-transform: uppercase;
+}
+
+.PlantasDos {
+    text-align: center;
+    color: aliceblue;
+}
+
+.CuatroArbustos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ImgArbusto {
+    width: 100%;
+    height: 100%;
+}
+
+.ImgReinoVegetal {
+    width: 25%;
+    height: 25%;
+}
+
+.ImgPartePlanta {
+    width: 100%;
+    height: 100%;
+}
+
+.ColorTituloFlor {
+    color: aliceblue;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.GridFlor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    background-color: darkblue;
+}
+
+.TamañoFlor {
+    width: 100%;
+    height: 100%;
+}
+
+.MapaPlantas {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+
+/*TABLET PLANTAS*/
+
+@media (width < 768px) {
+    .ClaseNavPlantasPlantas {
+        background-color: burlywood;
+        color: orangered;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TituloPlantas {
+        color: orangered;
+        text-transform: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Plantas {
+        background-color: green;
+        padding: 5px;
+    }
+
+    .GridPlantaGrid {
+        display: grid;
+        justify-content: center;
+    }
+
+    .OtrasPlantas {
+        text-transform: uppercase;
+    }
+
+    .PlantasDos {
+        text-align: center;
+        color: orangered;
+    }
+
+    .CuatroArbustos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImgArbusto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ImgReinoVegetal {
+        width: 25%;
+        height: 25%;
+    }
+
+    .ImgPartePlanta {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ColorTituloFlor {
+        color: orangered;
+        text-align: center;
+        background-color: green;
+    }
+
+    .GridFlor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 5px;
+        background-color: green;
+    }
+
+    .TamañoFlor {
+        width: 100%;
+        height: 100%;
+    }
+
+    .MapaPlantas {
+        text-align: center;
+        width: 100%;
+        height: 700px;
+    }
+}
+
+/*MOBILE PLANTAS*/
+
+@media (width < 320px) {
+
+    .ClaseNavPlantasPlantas {
+        background-color: orangered;
+        color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TituloPlantas {
+        color: red;
+    }
+
+    .Plantas {
+        background-color: orangered;
+        padding: 5px;
+    }
+
+    .GridPlantaGrid {
+        display: grid;
+        justify-content: center;
+    }
+
+    .OtrasPlantas {
+        text-transform: uppercase;
+    }
+
+    .PlantasDos {
+        text-align: center;
+        color: darkblue;
+    }
+
+    .CuatroArbustos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImgArbusto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ImgReinoVegetal {
+        width: 25%;
+        height: 25%;
+    }
+
+    .ImgPartesArbol {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ImgPartePlanta {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ColorTituloFlor {
+        color: aliceblue;
+        text-align: center;
+        background-color: orangered;
+    }
+
+    .GridFlor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 5px;
+        background-color: orangered;
+    }
+
+    .TamañoFlor {
+        width: 100%;
+        height: 100%;
+    }
+
+    .MapaPlantas {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/*PAGINA PROTOZOARIOS*/
+
+.ClaseNavProtozoarios {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+}
+
+.ClaseNavProtozoarios img {
+    width: 175px;
+    height: 150px;
+    border: solid;
+}
+
+.ClaseNavProtozoarios a:visited {
+    color: crimson;
+}
+
+.ClaseNavProtozoarios a:active {
+    color: aliceblue;
+}
+
+.Protozoarios {
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.CaracterísticasProtozoarios {
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+}
+
+.VideoProtozoarios {
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+}
+
+.TresVideos {
+    display: flex;
+}
+
+.OtrosTresVideos {
+    flex-direction: row;
+    width: 33%;
+    height: 500px;
+}
+
+/*TABLET PROTOZOARIOS*/
+
+@media (width < 768px) {
+
+    .ClaseNavProtozoarios {
+        background-color: aqua;
+        color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Protozoarios {
+        background-color: rgb(0, 255, 0);
+        color: red;
+        text-transform: none;
+    }
+
+    .CaracterísticasProtozoarios {
+        background-color: rgb(0, 255, 0);
+        color: red;
+    }
+
+    .VideoProtozoarios {
+        background-color: rgb(0, 255, 0);
+        color: red;
+    }
+
+    .TresVideos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .OtrosTresVideos {
+        width: 100%;
+        height: 800px;
+    }
+}
+
+/*MOBILE PROTOZOARIOS*/
+
+@media (width < 320px) {
+
+    .ClaseNavProtozoarios {
+        background-color: darkcyan;
+        color: aqua;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Protozoarios {
+        background-color: yellowgreen;
+        color: red;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .CaracterísticasProtozoarios {
+        background-color: yellowgreen;
+        color: red;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .VideoProtozoarios {
+        background-color: yellowgreen;
+        color: red;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .TresVideos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .OtrosTresVideos {
+        width: 100%;
+        height: 200px;
+    }
+}
